@@ -13,7 +13,8 @@
     "LICENSE",
     "NEWS.md",
     "srcts/types/**/*.d.ts",
-    "srcts/**/*.ts"
+    "srcts/**/*.ts",
+    "srcts/**/*.scss"
   ],
   "engines": {
     "node": ">= 14",
