@@ -66,7 +66,7 @@ function setShiny(windowShiny_: Shiny): void {
 
   // `process.env.SHINY_VERSION` is overwritten to the Shiny version at build time.
   // During testing, the `Shiny.version` will be `"development"`
-  windowShiny.version = process.env.SHINY_VERSION || "development";
+  windowShiny.version = "development";
 
   const { inputBindings, fileInputBinding } = initInputBindings();
   const { outputBindings } = initOutputBindings();
