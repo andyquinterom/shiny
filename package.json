@@ -5,7 +5,7 @@
   "name": "rstudio-shiny",
   "version": "1.7.3-alpha.9001",
   "license": "GPL-3.0-only",
-  "main": "srcts/src/index.ts",
+  "main": "srcts/src",
   "browser": "",
   "types": "srcts/types/extras/globalShiny.d.ts",
   "files": [
